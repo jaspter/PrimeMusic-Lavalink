@@ -9,10 +9,10 @@ module.exports = {
     options: [],
     run: async (client, interaction, lang) => {
         try {
-            const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-            const githubLink = "https://github.com/GlaceYT";
-            const replitLink = "https://replit.com/@GlaceYT";
-            const youtubeLink = "https://www.youtube.com/@GlaceYT";
+            const supportServerLink = "Developed by Jasper_Skye |  Music v1.2";
+            const githubLink = "Developed by Jasper_Skye |  Music v1.2";
+            const replitLink = "Developed by Jasper_Skye |  Music v1.2";
+            const youtubeLink = "Developed by Jasper_Skye |  Music v1.2";
 
             const embed = new EmbedBuilder()
                 .setColor('#b300ff')
@@ -27,7 +27,7 @@ module.exports = {
                     .replace("{replitLink}", replitLink)
                     .replace("{youtubeLink}", youtubeLink)
                 )
-                .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+                .setImage('https://media.discordapp.net/attachments/1230822430973628496/1230822729695891497/7491-evil-wonderboy.png?ex=6798acfe&is=67975b7e&hm=022ad8daf6d60214669db05b763ce007b92ff31b27a275c0d9bb34143d12f157&format=webp&quality=lossless&width=917&height=306&')
                 .setTimestamp();
 
             await interaction.reply({ embeds: [embed] });
