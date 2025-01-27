@@ -1,7 +1,7 @@
 
 
 module.exports = {
-  TOKEN: "mongodb+srv://jasper:toto11223344551@cluster0.zcbwt.mongodb.net/?retryWrites=true&w=majority",
+  TOKEN: "mongodb+srv://4klepk:s9jhbl@cluster0.zcbwt.mongodb.net/?retryWrites=true&w=majority",
   language: "en",
   ownerID: ["1004206704994566164", ""], 
   mongodbUri : "",
