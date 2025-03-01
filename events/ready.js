@@ -43,7 +43,7 @@ module.exports = async (client) => {
         //console.log(`🎵 Now Playing: ${trackName}`);
 
         client.user.setActivity({
-            name: `🎸 ${trackName}`,
+            name: `DJ Skye | /help`,
             type: ActivityType.Playing
         });
     }
