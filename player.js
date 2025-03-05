@@ -75,16 +75,16 @@ function initializePlayer(client) {
         const requester = requesters.get(trackUri);
 
         try {
-            const musicard = await Dynamic({
-                thumbnailImage: track.info.thumbnail || 'https://example.com/default_thumbnail.png',
-                backgroundColor: '#070707',
-                progress: 10,
-                progressColor: '#FF7A00',
-                progressBarColor: '#5F2D00',
-                name: track.info.title,
-                nameColor: '#FF7A00',
-                author: track.info.author || 'Unknown Artist',
-                authorColor: '#696969',
+           const musicard = await Dynamic({
+            thumbnailImage: track.info.thumbnail || 'https://example.com/default_thumbnail.png',
+            backgroundColor: '#4A1C24',  // Dark red/brown background similar to the image
+            progress: 10,               // You can adjust this value; I kept it as is but can match the ~50% progress in the image
+            progressColor: '#FF4040',   // Red for the progress fill (matching the red in the progress circle)
+            progressBarColor: '#FFA07A', // Light salmon/orange for the progress bar outline (matching the orange in the circle)
+            name: track.info.title,     // Title (e.g., "Morni") in pink
+            nameColor: '#c92828',       // Pink for the song title
+            author: track.info.author || 'Unknown Artist',  // Artist (e.g., "Badshah") in orange
+            authorColor: '#FFA500',     // Orange for the artist name
             });
 
             // Save the generated card to a file
@@ -99,7 +99,7 @@ function initializePlayer(client) {
                 iconURL: musicIcons.playerIcon,
                 url: config.SupportServer
             })
-            .setFooter({ text: `Developed by SSRR | Prime Music v1.2`, iconURL: musicIcons.heartIcon })
+            .setFooter({ text: `DJ Skye |  Music v1.2`, iconURL: musicIcons.heartIcon })
             .setTimestamp()
             .setDescription(  
                 `- **Title:** [${track.info.title}](${track.info.uri})\n` +
