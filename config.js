@@ -3,14 +3,14 @@
 module.exports = {
   TOKEN: "",
   language: "en",
-  ownerID: ["1004206704994566164", ""], 
-  mongodbUri : "",
+  ownerID: ["1089170457640570930", ""], 
+  mongodbUri : "mongodb+srv://shiku2244:shiku22443@cluster0.qieot.mongodb.net/?retryWrites=true&w=majority",
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
-  embedColor: "#1db954",
-  activityName: "YouTube Music", 
+  embedColor: "#472222",
+  activityName: "DJ Skye | /help", 
   activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
-  SupportServer: "https://discord.gg/xQF9f9yUEM",
+  SupportServer: "https://discord.gg/6zCFUDHygV",
   embedTimeout: 5, 
   errorLog: "", 
   nodes: [
